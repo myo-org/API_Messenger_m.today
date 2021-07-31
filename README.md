@@ -1,8 +1,8 @@
 # API_Messenger_m.today
 Backend API for Messenger Platform for Myanmar Today Facebook Page
-### Hi there, I'm Jesse - aka [Myanmar Today][website] 👋
+### Hi there, This is Myanmar Today Facebook Page:  [Myanmar Today][website] 👋
 
-
+### This project is for Messager API 
 
 ### Languages and Tools:
 
