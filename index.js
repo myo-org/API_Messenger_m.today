@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 app.get('/', (req, res) => {
   console.log('root route');
-  res.send('WEBHOOK Server running');
+  res.send('WEBHOOK server is running');
 });
 
 app.get('*', (req, res) => {
@@ -70,3 +70,5 @@ app.listen(PORT, () => {
 });
 
 export default app;
+
+// "localhost:3030/webhook?hub.verify_token=EXAMPLE_TOKEN&hub.challenge=CHALLENGE_ACCEPTED&hub.mode=subscribe"
